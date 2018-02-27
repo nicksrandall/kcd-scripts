@@ -1,11 +1,15 @@
 const {ifAnyDep} = require('../utils')
 
 module.exports = {
+  env: {
+    node: true,
+    browser: true,
+    jest: true,
+  },
   extends: [
-    require.resolve('eslint-config-kentcdodds'),
-    require.resolve('eslint-config-kentcdodds/jest'),
-    ifAnyDep('react', require.resolve('eslint-config-kentcdodds/jsx-a11y')),
-    ifAnyDep('react', require.resolve('eslint-config-kentcdodds/react')),
+    'eslint:recommended',
+    ifAnyDep('react', 'plugin:react/recommended'),
+    'prettier',
   ].filter(Boolean),
   rules: {},
 }

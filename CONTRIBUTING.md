@@ -7,16 +7,16 @@ Thanks for being willing to contribute!
 
 ## Project setup
 
-1. Fork and clone the repo
-2. `$ npm install` to install dependencies
-3. `$ npm run validate` to validate you've got it working
-4. Create a branch for your PR
+1.  Fork and clone the repo
+2.  `$ npm install` to install dependencies
+3.  `$ npm run validate` to validate you've got it working
+4.  Create a branch for your PR
 
 > Tip: Keep your `master` branch pointing at the original repository and make
 > pull requests from branches on your fork. To do this, run:
 >
 > ```
-> git remote add upstream https://github.com/kentcdodds/kcd-scripts.git
+> git remote add upstream https://github.com/kentcdodds/nick-scripts.git
 > git fetch upstream
 > git branch --set-upstream-to=upstream/master master
 > ```
@@ -88,4 +88,4 @@ requests! Thanks!
 [semantic-release]: https://npmjs.com/package/semantic-release
 [convention]: https://github.com/conventional-changelog/conventional-changelog-angular/blob/ed32559941719a130bb0327f886d6a32a8cbc2ba/convention.md
 [all-contributors]: https://github.com/kentcdodds/all-contributors
-[issues]: https://github.com/kentcdodds/kcd-scripts/issues
+[issues]: https://github.com/kentcdodds/nick-scripts/issues
